@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen bg-primary font-inter text-gray-300 pb-32">
+  <div class="w-full min-h-screen text-gray-300 bg-primary font-inter">
     <section>
       <div class="pt-16 px-14">
         <nav class="flex items-center justify-between">
@@ -25,7 +25,7 @@
         <div class="flex items-start justify-between">
           <div class="flex flex-col">
             <h1
-              class="max-w-lg font-bold tracking-tight text-7xl leading-tighter font-rubik text-transparent bg-clip-text bg-gradient-to-r from-secondary to-tertiary"
+              class="max-w-lg font-bold tracking-tight text-transparent text-7xl leading-tighter font-rubik bg-clip-text bg-gradient-to-r from-secondary to-tertiary"
             >
               The platform for local-first software
             </h1>
@@ -136,7 +136,7 @@
             </div>
           </div>
           <p
-            class="relative max-w-sm pt-10 pb-14 text-lg leading-relaxed text-gray-200 border-b border-gray-900 before:absolute before:bottom-0 before:-mb-px before:w-16 before:border-b-2 before:border-gray-100"
+            class="relative max-w-sm pt-10 text-lg leading-relaxed text-gray-200 border-b border-gray-900 pb-14 before:absolute before:bottom-0 before:-mb-px before:w-16 before:border-b-2 before:border-gray-100"
           >
             "Homebase is executing on the vision of data usage, portability and management
             we had when building firebase. We never got there. I'm excited!"
@@ -148,7 +148,7 @@
               <div class="flex items-center space-x-1.5 h-full pl-4">
                 <button class="w-2 h-2 bg-red-500 rounded-full"></button>
                 <button class="w-2 h-2 bg-yellow-400 rounded-full"></button>
-                <button class="w-2 h-2 bg-green rounded-full"></button>
+                <button class="w-2 h-2 rounded-full bg-green"></button>
               </div>
               <div class="pl-6">
                 <div
@@ -160,7 +160,7 @@
             </div>
             <div class="flex w-full overflow-hidden bg-editor-800 rounded-b-md">
               <code
-                class="flex flex-col w-10 px-3 py-2 text-xs leading-loose text-right text-gray-600 bg-editor-900 select-none"
+                class="flex flex-col w-10 px-3 py-2 text-xs leading-loose text-right text-gray-600 select-none bg-editor-900"
               >
                 1 2 3 4 5 6 7 8 9 10 11 12 13
               </code>
@@ -173,7 +173,7 @@
       <div class="flex pt-18">
         <div class="w-1/3">
           <img src="./assets/img/api.svg" alt="" />
-          <h3 class="pt-6 text-xl font-bold font-rubik text-white">Faster than API</h3>
+          <h3 class="pt-6 text-xl font-bold text-white font-rubik">Faster than API</h3>
           <p class="pt-4 pr-16 text-sm leading-relaxed text-gray-700">
             Changes are publish to all clients in real time. Local data is fast, read and
             write it instantly. Cache it forever
@@ -181,7 +181,7 @@
         </div>
         <div class="w-1/3">
           <img src="./assets/img/cloud.svg" alt="" />
-          <h3 class="pt-6 text-xl font-bold font-rubik text-white">Easy to use</h3>
+          <h3 class="pt-6 text-xl font-bold text-white font-rubik">Easy to use</h3>
           <p class="pt-4 pr-16 text-sm leading-relaxed text-gray-700">
             Develop with local database that's as capable as cloud DBs. Cut out your API
             and let Homebase sync state and help you manage data flow.
@@ -189,7 +189,7 @@
         </div>
         <div class="w-1/3">
           <img src="./assets/img/database.svg" alt="" />
-          <h3 class="pt-6 text-xl font-bold font-rubik text-white">More collaborative</h3>
+          <h3 class="pt-6 text-xl font-bold text-white font-rubik">More collaborative</h3>
           <p class="pt-4 pr-16 text-sm leading-relaxed text-gray-700">
             When database is responsible for resolving conflicts you don't have to solve
             realtime collaboration or offline support.
@@ -209,7 +209,7 @@
       <div class="flex">
         <div class="flex flex-col w-1/3 pt-24 pr-16 space-y-4">
           <div
-            class="pt-4 pb-7 border-b border-gray-900 relative before:absolute before:border-b before:border-gray-100 before:bottom-0 before:w-3/4 before:-mb-px"
+            class="relative pt-4 border-b border-gray-900 pb-7 before:absolute before:border-b before:border-gray-100 before:bottom-0 before:w-3/4 before:-mb-px"
           >
             <h3 class="text-xl font-bold text-white font-rubik">
               Reactively query relational data locally
@@ -219,7 +219,7 @@
               subscribe clients to changes.
             </p>
           </div>
-          <div class="pt-4 pb-7 border-b border-gray-900">
+          <div class="pt-4 border-b border-gray-900 pb-7">
             <h3 class="text-xl font-bold text-white font-rubik">
               Save instantly to a local DB
             </h3>
@@ -229,7 +229,7 @@
               cloud database.
             </p>
           </div>
-          <div class="pt-4 pb-7 border-b border-gray-900">
+          <div class="pt-4 border-b border-gray-900 pb-7">
             <h3 class="text-xl font-bold text-white font-rubik">
               Sync data across devices and between users
             </h3>
@@ -298,7 +298,7 @@
               <div class="flex items-center space-x-1.5 h-full pl-4">
                 <button class="w-2 h-2 bg-red-500 rounded-full"></button>
                 <button class="w-2 h-2 bg-yellow-400 rounded-full"></button>
-                <button class="w-2 h-2 bg-green rounded-full"></button>
+                <button class="w-2 h-2 rounded-full bg-green"></button>
               </div>
               <div class="pl-6">
                 <div
@@ -368,11 +368,11 @@
         </svg>
         <div class="pt-14">
           <h2
-            class="max-w-xs text-5xl font-bold tracking-tight leading-tighter font-rubik text-transparent bg-clip-text bg-gradient-to-r from-secondary to-tertiary"
+            class="max-w-xs text-5xl font-bold tracking-tight text-transparent leading-tighter font-rubik bg-clip-text bg-gradient-to-r from-secondary to-tertiary"
           >
             Get early access
           </h2>
-          <p class="pt-7 max-w-lg text-xl leading-relaxed text-gray-300">
+          <p class="max-w-lg text-xl leading-relaxed text-gray-300 pt-7">
             Seamless way to work together
           </p>
           <div class="pt-14">
