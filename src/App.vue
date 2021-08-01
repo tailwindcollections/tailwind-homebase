@@ -241,7 +241,7 @@
       </div>
     </section>
 
-    <section class="px-6 py-32 sm:px-14 lg:px-54">
+    <section class="px-6 py-32 sm:px-14 lg:px-24 xl:px-54">
       <div class="flex items-center justify-center">
         <h2
           class="text-4xl font-bold tracking-tight text-center text-white sm:text-5xl md:text-6xl leading-tighter font-rubik"
