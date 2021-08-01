@@ -1,7 +1,7 @@
 <template>
   <pre
-    class="pl-2 pt-2"
-  ><code class="text-white leading-tight text-xs"><span class="text-pink-600">const</span> [currentUser] = <span class="text-green">userCurrentUser</span>()
+    class="pt-2 pl-2"
+  ><code class="text-xs leading-tight text-white"><span class="text-pink-600">const</span> [currentUser] = <span class="text-green">userCurrentUser</span>()
 <span class="text-pink-600">const</span> [project] = <span class="text-green">useQuery</span>({
 	project: { name: '<span class="text-tertiary">Build the thing</span>' }
 })
