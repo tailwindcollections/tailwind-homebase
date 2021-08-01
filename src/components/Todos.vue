@@ -1,7 +1,7 @@
 <template>
   <pre
-    class="pl-2 pt-2"
-  ><code class="text-white leading-tight text-xs"><span class="text-pink-600">import</span> { useCurrentUser, useQuery } <span class="text-pink-600">from</span> 'homebase-react'
+    class="pt-2 pl-2"
+  ><code class="text-xs leading-tight text-white"><span class="text-pink-600">import</span> { useCurrentUser, useQuery } <span class="text-pink-600">from</span> 'homebase-react'
 <span class="text-pink-600">const</span> <span class="text-green">Todos</span> = ({ <span class="text-yellow">project</span> }) => {
 	<span class="text-pink-600">const</span> [currentUser] = <span class="text-green">useCurrentUser</span>()
 	<span class="text-pink-600">const</span> [todos, errors, syncing] = <span class="text-green">useQuery</span>({
